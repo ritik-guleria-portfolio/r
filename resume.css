@@ -1,0 +1,92 @@
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: auto;
+  background: #2a2a2a;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(77, 181, 255, 0.2);
+}
+
+.resume-container h1 {
+  font-size: 2.5rem;
+  color: var(--main-color, #4db5ff);
+  margin-bottom: 0.5rem;
+}
+
+.resume-container .title {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  color: var(--main-color, #4db5ff);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.3rem;
+}
+
+section p,
+section li {
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+strong {
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.socials a {
+  color: var(--main-color, #4db5ff);
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: var(--hover-color, #0ef);
+}
+.back-button {
+  margin-bottom: 2rem;
+}
+
+.back-button a {
+  color: var(--main-color, #4db5ff);
+  text-decoration: none;
+  font-size: 1rem;
+  background: rgba(77, 181, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--main-color, #4db5ff);
+  transition: background 0.3s ease;
+}
+
+.back-button a:hover {
+  background: var(--main-color, #4db5ff);
+  color: #1f1f1f;
+}

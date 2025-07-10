@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Ritik's Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#Projects">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="#contact">Contact</a>
+      
+      
+
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+  <div class="home-wrapper">
+    <div class="home-content">
+      <h3>Welcome, I'm</h3>
+      <h1>Ritik Guleria</h1>
+      <h3>an aspiring <span class="multiple-text"></span></h3>
+    </div>
+    <div class="home-img">
+      <img src="homepage.png" alt="Sticker Logo">
+    </div>
+  </div>
+</section>
+
+
+<section class="about" id="about">
+  <div class="about-container">
+    
+    <!-- Left: Vertical Card -->
+<div class="about-card-vertical">
+  <img src="home.jpeg" alt="Profile Photo" class="vertical-profile" />
+
+  <h3 class="profile-name">Ritik Thakur</h3>
+
+  <div class="profile-info">
+    <p><i class='bx bx-map'></i> Chandigarh, India</p>
+    <p><i class='bx bx-envelope'></i> ritikguleria551@gmail.com</p>
+  </div>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/ritik-guleria-0139aa286/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://github.com/ritikxc" target="_blank"><i class='bx bxl-github'></i></a>
+  </div>
+
+  <h3 style="margin-top: 1.5rem;">My Skills</h3>
+ <div class="skill-icons-section">
+  <div class="skill-badge">
+    <i class="fas fa-c"></i>
+    <span>C</span>
+    <div class="skill-percent">100%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fas fa-code"></i>
+    <span>C++</span>
+    <div class="skill-percent">100%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fab fa-html5"></i>
+    <span>HTML</span>
+    <div class="skill-percent">90%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fab fa-css3-alt"></i>
+    <span>CSS</span>
+    <div class="skill-percent">85%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fab fa-js-square"></i>
+    <span>JavaScript</span>
+    <div class="skill-percent">60%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fab fa-python"></i>
+    <span>Python</span>
+    <div class="skill-percent">70%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fab fa-java"></i>
+    <span>Java</span>
+    <div class="skill-percent">60%</div>
+  </div>
+  <div class="skill-badge">
+    <i class="fab fa-react"></i>
+    <span>React</span>
+    <div class="skill-percent">10%</div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+    <!-- Right: About Me Text -->
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        I’m a third-year Computer Science and Engineering student at Chandigarh University, passionate about building impactful solutions through technology. With hands-on experience in C++ programming and Web Development, I enjoy solving real-world problems and constantly seek opportunities that challenge and sharpen my skills.
+        <br><br>
+            Currently, I’m diving deep into Artificial Intelligence, Web Development, and Data Structures & Algorithms (DSA) — strengthening both my theoretical understanding and practical application. Whether it's developing interactive web interfaces, optimizing code for performance, or understanding how intelligent systems work, I aim to create solutions that are both efficient and user-focused.
+      <br><br>
+
+I believe in continuous learning and actively keep myself updated with the latest tech trends, tools, and best practices. I’m driven by curiosity, a desire to grow, and a mission to contribute meaningfully to the ever-evolving world of technology.
+
+
+          </p>
+      <ul class="about-details">
+        <li><strong>Profile:</strong> Student</li>
+        <li><strong>Education:</strong> Bachelor of Engineering (CSE)</li>
+        <li><strong>Languages:</strong> English, Hindi, Punjabi</li>
+        <li><strong>Developer Tools:</strong> Intellij, WordPress, VS Code, Git</li>
+        <li><strong>Database:</strong> DBMS (Oracle)</li>
+        <li><strong>Interests:</strong> Gym/Fitness, Content Creation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="projects" id="projects">
+  <h2 class="heading">My <span>Projects</span></h2>
+
+  <div class="projects-wrapper">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="project1.png" alt="Rock Paper Scissor Arcade">
+        <div class="overlay">
+          <p>Adaptive AI based Rock Paper Scissor game built using Vanilla JavaScript and deployed as a web app.</p>
+          <div class="hover-links">
+            <a href="https://github.com/ritikxc/rock-paper-scissors" target="_blank">GitHub</a>
+            <a href="https://ritikxc.github.io/rock-paper-scissors/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="project2.png" alt="Crypto Currency Wallet">
+        <div class="overlay">
+          <p>Ethereum Wallet with features like QR code generation, send/receive functionality using secure transactions.</p>
+          <div class="hover-links">
+            <a href="https://github.com/ritikxc/ethereum-wallet-webapp" target="_blank">GitHub</a>
+            <a href="https://ritikxc.github.io/ethereum-wallet-webapp/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <div class="project-image-wrapper">
+        <img src="project3.png" alt="Aptitude Quiz App">
+        <div class="overlay">
+          <p>Topic-based aptitude quiz with timer and intuitive UI. Supports real-time answer tracking and scoring.</p>
+          <div class="hover-links">
+            <a href="https://github.com/yourusername/aptitude-quiz-app" target="_blank">GitHub</a>
+            <a href="https://your-live-demo-url.com" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+    <!-- Repeat portfolio-box for more projects -->
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <div class="contact-cards">
+    <!-- Mobile -->
+    <div class="contact-card">
+      <h3><i class='bx bx-phone'></i> Mobile</h3>
+      <p>+91 9877389094</p>
+    </div>
+
+    <!-- Email -->
+    <div class="contact-card">
+      <h3><i class='bx bx-envelope'></i> Email</h3>
+      <p>ritikguleria551@gmail.com</p>
+    </div>
+
+    <!-- Resume Download -->
+    <div class="contact-card">
+      <a href="Ritik Guleria Resume.pdf" class="btn resume-btn" download>Download Resume</a>
+    </div>
+  </div>
+
+  <!-- Query Form -->
+<div class="query-card">
+  <h3>Have a Query?</h3>
+  <form id="query-form" action="https://formspree.io/f/xkgbdnjk" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <div id="success-popup" class="popup">Message Sent Successfully ✅</div>
+</div>
+
+
+  <div class="contact-socials">
+    <a href="https://github.com/ritikxc" target="_blank"><i class='bx bxl-github'></i></a>
+    <a href="https://www.linkedin.com/in/ritik-guleria-0139aa286/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://leetcode.com/ritikcodex" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" alt="LeetCode" class="leetcode-icon">
+    </a>
+  </div>
+</section>
+<div class="theme-switcher">
+  <button onclick="setTheme('default')" style="background: #4db5ff" title="Blue"></button>
+  <button onclick="setTheme('purple')" style="background: #c084fc" title="Purple"></button>
+  <button onclick="setTheme('green')" style="background: #4ade80" title="Green"></button>
+  <button onclick="setTheme('red')" style="background: #f87171" title="Red"></button>
+</div>
+
+
+
+  <!-- Sections for About, Services, Portfolio, Contact will follow -->
+<!-- Typed.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  const typed = new Typed(".multiple-text", {
+    strings: ["Web Developer", "Software Engineer", "C++ Programmer"],
+    typeSpeed: 30,
+    backSpeed: 30,
+    backDelay: 300,
+    loop: true
+  });
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+  ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+  });
+
+  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+  ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+  ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+  ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+</script>
+<script>
+  function setTheme(theme) {
+    const root = document.documentElement;
+
+    const themes = {
+      default: '#4db5ff',
+      purple: '#c084fc',
+      green: '#4ade80',
+      red: '#f87171'
+    };
+
+    root.style.setProperty('--main-color', themes[theme]);
+    localStorage.setItem('selectedTheme', theme);
+  }
+
+  // Keep the selected theme even if page reloads
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('selectedTheme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
+  });
+</script>
+<script>
+  const form = document.getElementById('query-form');
+  const popup = document.getElementById('success-popup');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        Accept: 'application/json',
+      },
+    }).then(response => {
+      if (response.ok) {
+        form.reset();
+        popup.style.display = 'block';
+        setTimeout(() => {
+          popup.style.display = 'none';
+        }, 3000);
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+
