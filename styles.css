@@ -849,29 +849,30 @@ max-width: 1000px;
 }
 .typed-wrapper {
   display: inline-block;
-  min-width: 180px;
-  min-height: 2.5rem;
-  vertical-align: bottom;
+  min-height: 2.5rem;       /* Locks height */
+  min-width: 240px;         /* Locks width for longest string */
+  max-width: 100%;
   overflow: hidden;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .multiple-text {
   display: inline-block;
   white-space: nowrap;
-  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #FFAA1D;
   font-size: 2rem;
+  color: #FFAA1D;
 }
-
 @media (max-width: 768px) {
-  .multiple-text {
-    font-size: 1.3rem;
-  }
-
   .typed-wrapper {
     min-height: 2rem;
-    min-width: 140px;
+    min-width: 200px;
+    text-align: center;
+  }
+
+  .multiple-text {
+    font-size: 1.2rem;
   }
 }
