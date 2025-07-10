@@ -887,4 +887,40 @@ max-width: 1000px;
 html, body {
   overflow-x: hidden;
 }
+.home-content {
+  flex: 1 1 500px;
+  margin-top: 5rem;
+  overflow: hidden; /* add this */
+}
+
+.typed-wrapper {
+  display: inline-block;
+  min-height: 2.5rem;
+  height: 2.5rem;       /* set fixed height */
+  min-width: 240px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.multiple-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 2rem;
+  color: #FFAA1D;
+}
+@media (max-width: 768px) {
+  .typed-wrapper {
+    height: 2rem; /* force height */
+    min-width: unset;
+  }
+
+  .multiple-text {
+    font-size: 1.2rem;
+  }
+}
 
