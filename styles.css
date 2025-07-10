@@ -849,13 +849,14 @@ max-width: 1000px;
 }
 .typed-wrapper {
   display: inline-block;
-  min-height: 2.5rem;       /* Locks height */
-  min-width: 240px;         /* Locks width for longest string */
-  max-width: 100%;
+  width: 100%;
+  max-width: 240px;
+  height: 2.5rem;
   overflow: hidden;
-  text-align: left;
-  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
 }
+
 
 .multiple-text {
   display: inline-block;
@@ -866,13 +867,24 @@ max-width: 1000px;
   color: #FFAA1D;
 }
 @media (max-width: 768px) {
-  .typed-wrapper {
-    min-height: 2rem;
-    min-width: 200px;
-    text-align: center;
-  }
-
   .multiple-text {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 768px) {
+  .home-img {
+    margin-top: 2rem;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .home-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+html, body {
+  overflow-x: hidden;
+}
+
